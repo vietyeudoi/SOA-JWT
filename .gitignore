@@ -1,0 +1,94 @@
+## -------------------------------------------------------
+## Visual Studio / .NET
+## -------------------------------------------------------
+
+# Build output
+bin/
+obj/
+
+# User-specific settings
+*.user
+*.suo
+.vs/
+
+# Visual Studio caches / temp files
+*.cache
+*.userprefs
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+
+# NuGet restore files
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# dotnet CLI
+.dotnet/
+
+## -------------------------------------------------------
+## ASP.NET Core / Secrets
+## -------------------------------------------------------
+
+# User Secrets (never commit!)
+**/Properties/launchSettings.json
+
+# Environment-specific overrides
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+
+# Secret Manager
+secrets.json
+
+## -------------------------------------------------------
+## Logs & Runtime
+## -------------------------------------------------------
+
+logs/
+*.log
+*.txt.bak
+
+## -------------------------------------------------------
+## OS generated files
+## -------------------------------------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+## -------------------------------------------------------
+## IDE / Editor
+## -------------------------------------------------------
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VSCode
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+## -------------------------------------------------------
+## Docker (nếu có dùng sau này)
+## -------------------------------------------------------
+
+.dockerignore
+docker-compose.override.yml
